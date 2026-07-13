@@ -158,3 +158,94 @@ ul{
     margin-top: 150px;
     padding: 18px 42px;
 }
+
+
+/* =================================
+      Speakers Section Start Here
+================================= */
+
+.speakers{
+
+    padding:80px 0;
+    background:#ffffff;
+
+}
+
+.container{
+
+    width:1200px;
+    margin:0 auto;
+
+}
+
+.speakers h2{
+
+    font-size:56px;
+    font-weight:900;
+    text-align:center;
+    margin-bottom:56px;
+    color:#111111;
+
+}
+
+.speakers-grid{
+
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:32px;
+
+}
+
+.speaker-card{
+
+    background:#ffffff;
+    border:1px solid #E7E7E7;
+    border-radius:12px;
+    overflow:hidden;
+
+}
+
+.speaker-card img{
+
+    width:100%;
+    height:300px;
+    object-fit:cover;
+    display:block;
+
+}
+
+.speaker-info{
+
+    padding:18px;
+
+}
+
+.speaker-info h5{
+
+    font-size:12px;
+    font-weight: 600;
+    line-height: 18px;
+    color:#2952E3;
+    text-transform:uppercase;
+    margin-bottom:8px;
+
+}
+
+.speaker-info h3{
+
+    font-size:20px;
+    font-weight:900;
+    line-height: 28px;
+    margin-bottom:10px;
+    color:#111111;
+
+}
+
+.speaker-info p{
+
+    font-size:14px;
+    color:#575757;
+    line-height:21px;
+
+}
+
