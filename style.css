@@ -383,4 +383,76 @@ ul{
 
 
 
+/* =================================
+        Footer Section Start Here
+================================= */
+
+.footer{
+
+    background:#0D1B2A;
+    padding:50px 0 25px;
+
+}
+
+.footer-top{
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:30px;
+
+}
+
+.footer-top img{
+
+    width:170px;
+
+}
+
+.social-links{
+
+    display:flex;
+    gap:18px;
+
+}
+
+.social-links a{
+
+    width:42px;
+    height:42px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    border-radius:50%;
+    text-decoration:none;
+    color:#ffffff;
+    background:#1E293B;
+    font-size:18px;
+    transition:.3s;
+
+}
+
+.social-links a:hover{
+
+    background:#2952E3;
+
+}
+
+.footer hr{
+
+    border:none;
+    border-top:1px solid rgba(255,255,255,.15);
+    margin-bottom:25px;
+}
+
+.copyright{
+
+    text-align:center;
+    color:#CFCFCF;
+    font-size:14px;
+
+}
+
+
+
 
