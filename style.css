@@ -236,7 +236,7 @@ ul{
     font-size:20px;
     font-weight:900;
     line-height: 28px;
-    margin-bottom:10px;
+    margin-bottom:10gitpx;
     color:#111111;
 
 }
@@ -248,4 +248,139 @@ ul{
     line-height:21px;
 
 }
+
+
+
+
+
+/* =======================================
+      Pricing Section Css Start Here
+========================================== */
+.pricing{
+    padding: 80px 0;
+    background: #fff;
+}
+
+.pricing h2{
+    margin: 0;
+    text-align: center;
+    font-size: 48px;
+    line-height: 60px;
+    font-weight: 900;
+    color: #0D1B2A;
+}
+
+.pricing-subtitle{
+    margin: 12px 0 60px;
+    text-align: center;
+    font-size: 16px;
+    color: #575757;
+}
+
+
+.pricing-grid{
+
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:24px;
+
+}
+
+.price-card{
+
+    border:1px solid #E5E7EB;
+    border-radius:12px;
+    padding:32px;
+    background:#fff;
+
+}
+
+.active-card{
+
+    background:#0D1B2A;
+    color:#ffffff;
+
+}
+
+.price-card span{
+
+    font-size:13px;
+    font-weight:600;
+    line-height: 20px;
+    color:#888888;
+
+}
+
+.active-card span{
+
+    color:#93C5FD;
+
+}
+
+.price-card h3{
+
+    font-size:48px;
+    font-weight:800;
+    margin:12px 0 5px;
+
+}
+
+.price-card small{
+
+    display:block;
+    color:#888888;
+    margin-bottom:25px;
+
+}
+
+.active-card small{
+
+    color:#FFFFFF50;
+
+}
+
+.price-card ul{
+
+    list-style:disc;
+    padding-left:20px;
+    margin-bottom:30px;
+
+}
+
+.price-card ul li{
+
+    margin-bottom:12px;
+    color:#333333;
+    font-size:15px;
+
+}
+
+.active-card ul li{
+
+    color:#FFFFFF80;
+
+}
+
+.price-btn{
+
+    display:block;
+    text-align:center;
+    text-decoration:none;
+    border:1px solid #2F5BEA;
+    color:#2F5BEA;
+    padding:14px;
+    border-radius:8px;
+    font-weight:600;
+
+}
+
+.active-btn{
+
+    background:#2F5BEA;
+    color:#ffffff;
+
+}
+
+
+
 
