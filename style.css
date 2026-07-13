@@ -520,17 +520,13 @@ ul{
     border-radius:50%;
     text-decoration:none;
     color:#ffffff;
-    background:#1E293B;
+    background:#2952E3;
     font-size:18px;
     transition:.3s;
 
 }
 
-.social-links a:hover{
 
-    background:#2952E3;
-
-}
 
 .footer hr{
 
