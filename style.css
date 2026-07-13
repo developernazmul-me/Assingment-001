@@ -383,6 +383,100 @@ ul{
 
 
 
+/* =====================================
+        FAQ Section Start Here
+===================================== */
+
+.faq{
+
+    padding:100px 0;
+    background:#F8FAFC;
+
+}
+
+.faq-title{
+
+    text-align:center;
+    margin-bottom:60px;
+
+}
+
+.faq-title h2{
+
+    font-size:48px;
+    font-weight:800;
+    color:#0D1B2A;
+    margin-bottom:16px;
+
+}
+
+.faq-title p{
+
+    font-size:18px;
+    color:#6B7280;
+
+}
+
+.faq-content{
+
+    max-width:900px;
+    margin:0 auto;
+
+}
+
+.faq-content details{
+
+    background:#ffffff;
+    border:1px solid #E5E7EB;
+    border-radius:10px;
+    margin-bottom:20px;
+    padding:20px 24px;
+
+}
+
+.faq-content summary{
+
+    font-size:20px;
+    font-weight:700;
+    cursor:pointer;
+    color:#0D1B2A;
+    list-style:none;
+
+}
+
+.faq-content summary::-webkit-details-marker{
+
+    display:none;
+
+}
+
+.faq-content summary::after{
+
+    content:"+";
+    float:right;
+    font-size:24px;
+    color:#2952E3;
+
+}
+
+.faq-content details[open] summary::after{
+
+    content:"−";
+
+}
+
+.faq-content details p{
+
+    margin-top:16px;
+    font-size:16px;
+    line-height:28px;
+    color:#555555;
+
+}
+
+
+
+
 /* =================================
         Footer Section Start Here
 ================================= */
