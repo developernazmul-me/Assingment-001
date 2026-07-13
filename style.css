@@ -1,0 +1,160 @@
+
+/* =====================================
+        Must common css code Section
+========================================*/
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+
+
+
+body{
+    font-family: 'Inter', sans-serif;
+}
+
+
+
+
+img{
+    display:block;
+    max-width:100%;
+}
+
+
+
+a{
+    text-decoration:none;
+}
+
+
+
+
+
+ul{
+    list-style:none;
+}
+
+
+
+
+
+/* ================================
+        Navbar Section Star Here
+===================================*/
+
+
+.navbar{
+
+    background:#ffffff;
+}
+
+.container{
+
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+}
+
+
+
+.nav-container{
+
+    height:90px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+
+.nav-menu{
+
+    display:flex;
+    gap: 24px;
+}
+
+
+.nav-menu a{
+
+    color:#575757;
+    font-size:16px;
+    font-weight:500;
+    
+}
+
+
+
+.btn{
+
+    background:#1D4ED8;
+    color:#ffffff;
+    padding:12px 42px;
+    border-radius:8px;
+    font-size:16px;
+    font-weight:600;
+
+
+}
+
+
+
+
+
+/* ==================================
+        Hero Section Star Here
+===================================== */
+
+.hero{
+    min-height: 100vh;
+    background:linear-gradient(rgba(0,0,0,.65), rgba(0,0,0,.65)),
+        url("./assets/banner.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.hero-content{
+    width: 100%;
+    max-width: 1200px;
+    height: 780px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+}
+
+.hero-text{
+    width: 1000px;
+}
+
+.hero-text h1{
+    font-size: 80px;
+    font-weight: 900;
+    line-height: 80px;
+    margin-bottom: 16px;
+}
+
+.hero-text span{
+    font-style: italic;
+}
+
+.hero-text p{
+    width: 760px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 36px;
+    color: #E8E8E8;
+}
+
+.hero-btn{
+    margin-top: 150px;
+    padding: 18px 42px;
+}
